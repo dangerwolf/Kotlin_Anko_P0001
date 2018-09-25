@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jetbrains.anko:anko-percent-0.10.6">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/anko-percent-0.10.6.aar/e5d324156d7485d2c69192a4ef6783b8/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/anko-percent-0.10.6.aar/e5d324156d7485d2c69192a4ef6783b8/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-percent/0.10.6/d2dfa9199a76ec268adaa67693af5454d17ae90b/anko-percent-0.10.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

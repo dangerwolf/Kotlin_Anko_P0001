@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jetbrains.anko:anko-recyclerview-v7-0.10.6">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/anko-recyclerview-v7-0.10.6.aar/b0bcf440d8c0e09016f37f7e4d532cd5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/anko-recyclerview-v7-0.10.6.aar/b0bcf440d8c0e09016f37f7e4d532cd5/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-recyclerview-v7/0.10.6/5c7e9742322e630980d2da1971e77588cf77d689/anko-recyclerview-v7-0.10.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
