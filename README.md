@@ -11,10 +11,10 @@ wolf 自用基于Anko的Kotlin模板
 
 
 ## Project:
-根据实际情况，添加最新的anko版本号。
+根据实际情况，添加最新的Anko版本号。
 
 在`buildscript`中添加如下：
-~~~
+~~~xml
 ext.anko_version = '0.10.6'
 ~~~
 
@@ -26,8 +26,7 @@ ext.anko_version = '0.10.6'
 
 在`dependencies`中添加如下：
 
-~~~
-
+~~~xml
     implementation 'com.facebook.fresco:fresco:1.9.0'  //图片缓存 https://github.com/facebook/fresco
 
     // 在 API < 14 上的机器支持 WebP 时，需要添加
@@ -47,7 +46,7 @@ ext.anko_version = '0.10.6'
 
 ### 腾讯Bugly
 在`dependencies`中添加如下：
-~~~
+~~~xml
     implementation 'com.tencent.bugly:crashreport:latest.release'
     //其中latest.release指代最新Bugly SDK版本号，也可以指定明确的版本号，例如2.2.0
 ~~~
@@ -55,7 +54,7 @@ ext.anko_version = '0.10.6'
 
 ### Anko
 在`dependencies`中添加如下：
-~~~
+~~~xml
 
     // Anko Commons
     implementation "org.jetbrains.anko:anko-commons:$anko_version"
@@ -109,7 +108,7 @@ ext.anko_version = '0.10.6'
 ##proguard
 在`proguard-rules.pro`中添加如下：
 
-~~~
+~~~xml
 -dontwarn com.tencent.bugly.**
 -keep public class com.tencent.bugly.**{*;}
 
@@ -120,7 +119,7 @@ ext.anko_version = '0.10.6'
 
 根据实际情况，在`local.properties`中修改如下：
 
-~~~
+~~~xml
 sdk.dir=/Users/SLB/Library/Android/sdk
 ~~~
 
@@ -191,12 +190,12 @@ class WOLFApplication : Application() {
 ~~~
 
 在`<application>`中添加自定义的`Application`文件：
-~~~
+~~~xml
 android:name=".Application.WOLFApplication"
 ~~~
 
 在`<application>`中添加一个`activity`用于Bugly的配置：
-~~~
+~~~xml
         <activity
             android:name="com.tencent.bugly.beta.ui.BetaActivity"
             android:configChanges="keyboardHidden|orientation|screenSize|locale"

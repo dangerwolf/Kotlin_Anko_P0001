@@ -4,4 +4,9 @@
     <string name="title_activity_splash">SplashActivity</string>
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
+
+
+
+    <string name="user_name">Test001</string>
+    <string name="user_name_input_hint">请输入您的用户名</string>
 </resources>
