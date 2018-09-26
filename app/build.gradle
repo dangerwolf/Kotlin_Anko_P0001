@@ -37,20 +37,7 @@ dependencies {
 
 
 
-    implementation 'com.facebook.fresco:fresco:1.9.0'  //图片缓存 https://github.com/facebook/fresco
 
-    // 在 API < 14 上的机器支持 WebP 时，需要添加
-    implementation 'com.facebook.fresco:animated-base-support:0.12.0'
-
-    // 支持 GIF 动图，需要添加
-    implementation 'com.facebook.fresco:animated-gif:0.12.0'
-
-    // 支持 WebP （静态图+动图），需要添加
-    implementation 'com.facebook.fresco:animated-webp:0.12.0'
-    implementation 'com.facebook.fresco:webpsupport:0.12.0'
-
-    // 仅支持 WebP 静态图，需要添加
-    //compile 'com.facebook.fresco:webpsupport:0.12.0'
 
     implementation 'com.tencent.bugly:crashreport:latest.release'
     //其中latest.release指代最新Bugly SDK版本号，也可以指定明确的版本号，例如2.2.0

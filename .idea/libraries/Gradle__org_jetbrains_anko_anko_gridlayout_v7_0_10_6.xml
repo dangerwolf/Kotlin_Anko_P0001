@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: org.jetbrains.anko:anko-gridlayout-v7-0.10.6">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/anko-gridlayout-v7-0.10.6.aar/34479c1c3fee48fffe60c665e1af50ac/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/anko-gridlayout-v7-0.10.6.aar/34479c1c3fee48fffe60c665e1af50ac/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/anko-gridlayout-v7-0.10.6.aar/e5c623881a0c5155ce511a4765f295e7/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/anko-gridlayout-v7-0.10.6.aar/e5c623881a0c5155ce511a4765f295e7/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

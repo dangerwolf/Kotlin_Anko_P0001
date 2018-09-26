@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: org.jetbrains.anko:anko-sqlite-0.10.6">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/anko-sqlite-0.10.6.aar/0c9c936d02cbd5cf209aab9dea730538/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/anko-sqlite-0.10.6.aar/0c9c936d02cbd5cf209aab9dea730538/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/anko-sqlite-0.10.6.aar/8778dc862b5fbb18fce1cb6ec93ddeac/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/anko-sqlite-0.10.6.aar/8778dc862b5fbb18fce1cb6ec93ddeac/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

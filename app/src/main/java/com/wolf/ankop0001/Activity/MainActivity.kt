@@ -2,32 +2,21 @@ package com.wolf.ankop0001.Activity
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.EditText
-import com.wolf.ankop0001.R
+import com.wolf.ankop0001.View.MainActivityUI
 import org.jetbrains.anko.*
-import org.jetbrains.anko.sdk25.coroutines.onClick
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : AppCompatActivity() ,AnkoLogger{
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 //        setContentView(R.layout.activity_main)
 
-        verticalLayout {
-            padding = dip(60)
-            topPadding = dip(200)
-            val name = editText{
-                hint = "请输入您的用户名"
-                
-            }
-            button("Say Hello") {
-                width = dip(50)
-                onClick { toast("Hello, ${name.text}!") }
-            }
-        }.applyRecursively {
-            view -> when(view) {
-                is EditText -> view.textSize = 20f
-            }
-        }
+//        很多时候我们其实还是希望布局和 Activity 分开的，所以建议在Activity 的 onCreate 方法中使用 DSL。
+
+        MainActivityUI().setContentView(this)
+
+        info("Test")
     }
 }
+
+
