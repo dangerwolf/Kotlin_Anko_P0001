@@ -2,6 +2,7 @@ package com.wolf.ankop0001.Activity
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import com.wolf.ankop0001.Model.TestModel
 import com.wolf.ankop0001.View.MainActivityUI
 import org.jetbrains.anko.*
 
@@ -15,7 +16,7 @@ class MainActivity : AppCompatActivity() ,AnkoLogger{
 
         MainActivityUI().setContentView(this)
 
-        info("Test")
+        info(TestModel.testStr)
     }
 }
 
